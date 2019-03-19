@@ -1,0 +1,32 @@
+
+.albumWrapper{
+
+    z-index: 3;
+    overflow: hidden;
+    text-decoration: none;
+}
+.Sonicloading > img{
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+ a{
+    text-decoration: none;
+}
+.albumWrapper h1 {
+    text-align: center;
+    
+}
+.mainWrapper{
+    padding: 5%;
+}
+.mainWrapper img {
+    -webkit-box-shadow: inset 7px -1px 13px -1px rgba(0,0,0,0.65);
+    -moz-box-shadow: inset 7px -1px 13px -1px rgba(0,0,0,0.65);
+    box-shadow: inset 7px -1px 13px -1px rgba(0,0,0,0.65);
+}
+.favorites{
+    text-align: center;
+}
+
+

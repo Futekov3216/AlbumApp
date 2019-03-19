@@ -1,0 +1,26 @@
+{
+  "name": "010-intro-to-redux",
+  "version": "1.0.0",
+  "devDependencies": {
+    "react-scripts": "0.8.4",
+    "sw-precache": "^4.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.4.0",
+    "react-router-dom": "^4.4.0",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.1",
+    "semantic-ui-react": "^0.86.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp manifest.json build/ && sw-precache --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "./"
+}

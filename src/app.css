@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:url('../public/119100.jpg') #2776ec;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body .page-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.btn-3d-sub {
+        
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50px;
+  border-bottom: 5px solid #173814;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: linear-gradient(#469e3f,#255b20);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px grey;
+  transition: 150ms ease;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  margin: 3% auto 1% auto;
+}
+
+
+.btn-3d-sub:active {
+  border: none;
+  border-bottom: 2px solid steelblue;
+  box-shadow: 0px 1px 5px grey;
+  background: linear-gradient(#255b20,#469e3f);
+  color: #FFF;
+}
+.ui.card, .ui.cards > .card{
+  width: 100%;
+  margin-top: 2%!important;
+}
+.ui.rail {
+  height: auto;
+}
